@@ -8,5 +8,5 @@ function showSessionExpire(){
 }
 
 console.log("Activity-A : Triggerring Activity-B at"+showTime());
-setTimeout(showSessionExpire,5000);
+setTimeout(showSessionExpire,3000);
 console.log("Activity-A: Triggered Activity-B at "+showTime()+" will excute after 5 seconds ");
