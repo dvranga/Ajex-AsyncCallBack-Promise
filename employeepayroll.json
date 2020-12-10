@@ -56,8 +56,20 @@
       }
     },
     {
-      "id": "6",
-      "salary": "5000000"
+      "id": 6,
+      "name": "Mukesh",
+      "salary": 10000000,
+      "gender": "M",
+      "startDate": {
+        "year": 2020,
+        "month": 11,
+        "day": 25
+      }
+    },
+    {
+      "name": "Ranganath",
+      "salary": "5000000",
+      "id": 7
     }
   ]
 }

@@ -34,8 +34,8 @@ function userDeleted(data){
 }
 makeAJAXCall("DELETE",deleteURL,userDeleted,false);
 
-const postURL="http://localhost:3000/employee_payroll";
-const emplData={"id":"6","salary":"5000000"};
+const postURL="http://localhost:3000/employee_payroll/";
+const emplData={"name":"Ranganath","salary":"5000000"};
 function userAdded(data){
     console.log("User Added: "+data);
 }
